@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "iconfont";
+  src: url('../fonts/iconfont.woff2') format('woff2'),
+       url('../fonts/iconfont.woff') format('woff'),
+       url('../fonts/iconfont.ttf') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-search:before {
+  content: "\e82e";
+}
+
+.icon-camera:before {
+  content: "\e8d7";
+}
+
+.icon-knowledge:before {
+  content: "\e8d9";
+}
+
+.icon-community:before {
+  content: "\e8db";
+}
+
+.icon-like:before {
+  content: "\e8dc";
+}
+
+.icon-comment:before {
+  content: "\e8e4";
+}
+
+.icon-share:before {
+  content: "\e8e6";
+}
+
+.icon-edit:before {
+  content: "\e8e8";
+} 

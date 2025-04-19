@@ -1,0 +1,33 @@
+<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="400" height="400" fill="#F8F8F8"/>
+  
+  <!-- 花盆 -->
+  <path d="M160,320 L240,320 L250,380 L150,380 Z" fill="#B76C45"/>
+  <path d="M160,320 L240,320 L230,340 L170,340 Z" fill="#A35D36" opacity="0.8"/>
+  
+  <!-- 多肉植物层次 -->
+  <g transform="translate(200,280)">
+    <!-- 底层叶片 -->
+    <path d="M-50,-10 A50,25 0 0,1 50,-10" fill="#77A67F"/>
+    <path d="M-40,-20 A40,20 0 0,1 40,-20" fill="#86B68E"/>
+    <path d="M-30,-30 A30,15 0 0,1 30,-30" fill="#96C69D"/>
+    <path d="M-20,-40 A20,10 0 0,1 20,-40" fill="#A6D6AD"/>
+    
+    <!-- 叶片纹理 -->
+    <path d="M-45,-15 A45,22 0 0,1 45,-15" stroke="#5D8A64" stroke-width="1" opacity="0.3"/>
+    <path d="M-35,-25 A35,17 0 0,1 35,-25" stroke="#5D8A64" stroke-width="1" opacity="0.3"/>
+    <path d="M-25,-35 A25,12 0 0,1 25,-35" stroke="#5D8A64" stroke-width="1" opacity="0.3"/>
+  </g>
+  
+  <!-- 装饰点 -->
+  <circle cx="180" cy="270" r="2" fill="#5D8A64"/>
+  <circle cx="220" cy="260" r="2" fill="#5D8A64"/>
+  <circle cx="200" cy="250" r="2" fill="#5D8A64"/>
+  
+  <!-- 高光 -->
+  <ellipse cx="190" cy="240" rx="8" ry="3" fill="#FFFFFF" opacity="0.3"/>
+  
+  <!-- 阴影 -->
+  <ellipse cx="200" cy="385" rx="50" ry="10" fill="#00000022"/>
+</svg> 

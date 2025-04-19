@@ -1,0 +1,31 @@
+<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="400" height="400" fill="#F8F8F8"/>
+  
+  <!-- 花盆 -->
+  <path d="M150,300 L250,300 L270,380 L130,380 Z" fill="#D97D54"/>
+  <path d="M150,300 L250,300 L240,320 L160,320 Z" fill="#C26B44" opacity="0.8"/>
+  
+  <!-- 绿萝茎干 -->
+  <path d="M200,280 Q180,220 190,180" stroke="#43A047" stroke-width="3"/>
+  <path d="M200,280 Q220,230 210,160" stroke="#43A047" stroke-width="3"/>
+  <path d="M200,280 Q160,240 170,190" stroke="#43A047" stroke-width="3"/>
+  
+  <!-- 绿萝叶子 -->
+  <path d="M190,180 Q160,160 180,130 T200,100" fill="#4CAF50" stroke="#43A047"/>
+  <path d="M210,160 Q240,140 220,110 T190,80" fill="#66BB6A" stroke="#43A047"/>
+  <path d="M170,190 Q140,170 160,140 T190,110" fill="#81C784" stroke="#43A047"/>
+  
+  <!-- 叶子纹理 -->
+  <path d="M180,130 Q190,120 200,100" stroke="#388E3C" stroke-width="1" opacity="0.5"/>
+  <path d="M220,110 Q210,100 190,80" stroke="#388E3C" stroke-width="1" opacity="0.5"/>
+  <path d="M160,140 Q170,130 190,110" stroke="#388E3C" stroke-width="1" opacity="0.5"/>
+  
+  <!-- 高光效果 -->
+  <circle cx="185" cy="125" r="3" fill="#FFFFFF" opacity="0.6"/>
+  <circle cx="215" cy="115" r="2" fill="#FFFFFF" opacity="0.6"/>
+  <circle cx="175" cy="145" r="2" fill="#FFFFFF" opacity="0.6"/>
+  
+  <!-- 阴影 -->
+  <ellipse cx="200" cy="385" rx="70" ry="10" fill="#00000022"/>
+</svg> 

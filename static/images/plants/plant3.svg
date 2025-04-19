@@ -1,0 +1,44 @@
+<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="400" height="400" fill="#F8F8F8"/>
+  
+  <!-- 花盆 -->
+  <path d="M140,340 L260,340 L280,380 L120,380 Z" fill="#8D6E63"/>
+  <path d="M140,340 L260,340 L250,360 L150,360 Z" fill="#6D4C41" opacity="0.8"/>
+  
+  <!-- 树干 -->
+  <path d="M200,340 L200,200" stroke="#6D4C41" stroke-width="16"/>
+  <path d="M200,340 L195,200" stroke="#5D4037" stroke-width="8" opacity="0.3"/>
+  
+  <!-- 叶子组 -->
+  <g transform="translate(200,200)">
+    <!-- 左侧叶子 -->
+    <g transform="rotate(-30)">
+      <path d="M-20,0 Q-60,-20 -40,20" fill="#2E7D32"/>
+      <path d="M-30,-40 Q-70,-60 -50,-20" fill="#388E3C"/>
+      <path d="M-10,-80 Q-50,-100 -30,-60" fill="#43A047"/>
+    </g>
+    
+    <!-- 右侧叶子 -->
+    <g transform="rotate(30)">
+      <path d="M20,0 Q60,-20 40,20" fill="#2E7D32"/>
+      <path d="M30,-40 Q70,-60 50,-20" fill="#388E3C"/>
+      <path d="M10,-80 Q50,-100 30,-60" fill="#43A047"/>
+    </g>
+    
+    <!-- 叶脉 -->
+    <g stroke="#1B5E20" stroke-width="1" opacity="0.3">
+      <path d="M-40,0 L-60,-20"/>
+      <path d="M40,0 L60,-20"/>
+      <path d="M-50,-40 L-70,-60"/>
+      <path d="M50,-40 L70,-60"/>
+    </g>
+  </g>
+  
+  <!-- 高光 -->
+  <circle cx="195" cy="180" r="2" fill="#FFFFFF" opacity="0.6"/>
+  <circle cx="205" cy="160" r="2" fill="#FFFFFF" opacity="0.6"/>
+  
+  <!-- 阴影 -->
+  <ellipse cx="200" cy="385" rx="80" ry="10" fill="#00000022"/>
+</svg> 

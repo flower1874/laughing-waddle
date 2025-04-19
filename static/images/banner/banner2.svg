@@ -1,0 +1,24 @@
+<svg width="750" height="300" viewBox="0 0 750 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 渐变背景 -->
+  <rect width="750" height="300" fill="url(#gradient2)"/>
+  
+  <!-- 书本图标 -->
+  <rect x="335" y="80" width="80" height="80" rx="8" fill="#ffffff"/>
+  <path d="M345,90 L405,90 L405,150 L345,150 Z" fill="#4CAF50"/>
+  
+  <!-- 文字 -->
+  <text x="375" y="200" text-anchor="middle" fill="#ffffff" font-size="32" font-weight="bold">
+    养护知识库
+  </text>
+  <text x="375" y="240" text-anchor="middle" fill="#ffffff" font-size="24" opacity="0.8">
+    专业的植物养护指南
+  </text>
+  
+  <!-- 渐变定义 -->
+  <defs>
+    <linearGradient id="gradient2" x1="0" y1="0" x2="750" y2="300">
+      <stop offset="0%" stop-color="#45B649"/>
+      <stop offset="100%" stop-color="#96E6A1"/>
+    </linearGradient>
+  </defs>
+</svg> 
